@@ -16,7 +16,6 @@ class FizzBuzz extends Component {
 
     fizzBuzzCheck(userNum) {
         let fizzBuzz = []
-        debugger
         for(let i=1; i<=userNum; i++) {
             if(i % 3 === 0 && i % 5 === 0) {
                 console.log(fizzBuzz)
